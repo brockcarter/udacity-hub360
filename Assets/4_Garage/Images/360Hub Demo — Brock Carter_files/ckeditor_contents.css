@@ -1,0 +1,122 @@
+@import url("https://static.squarespace.com/universal/fonts/squarespace-gotham.css");
+
+/*
+Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or http://ckeditor.com/license
+*/
+
+html {
+	height: 100%;
+}
+
+body
+{
+	min-height: 100%;
+	/* Font */
+	font: 400 normal 12px / 22px 'Gotham SSm A', 'Gotham SSm B', 'Gotham SSm', 'Gotham', 'Proxima Nova', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+	/* Text color */
+	color: #3e3e3e;
+
+	/* Remove the background color to make it transparent */
+	background-color: #fff;
+
+	margin: 0;
+	padding: 11px;
+	box-sizing: border-box;
+}
+
+.cke_editable
+{
+	font-size: 12px;
+	line-height: 22px;
+}
+
+.cke_editable *:first-child {
+	margin-top: 0 !important;
+}
+
+.cke_editable *:last-child {
+	margin-bottom: 0 !important;
+}
+
+blockquote
+{
+	font-style: italic;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	padding: 2px 0;
+	border-style: solid;
+	border-color: #dadada;
+	border-width: 0;
+}
+
+.cke_contents_ltr blockquote
+{
+	padding-left: 22px;
+	padding-right: 11px;
+	border-left-width: 5px;
+}
+
+.cke_contents_rtl blockquote
+{
+	padding-left: 11px;
+	padding-right: 22px;
+	border-right-width: 5px;
+}
+
+a
+{
+	color: #3e3e3e;
+	border-bottom: 1px solid #3e3e3e;
+	text-decoration: none;
+}
+
+ol,ul,dl
+{
+	/* preserved spaces for list items with text direction other than the list. (#6249,#8049)*/
+	padding: 0 44px;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	font-weight: normal;
+	line-height: 1.2em;
+}
+
+hr
+{
+	border: 0px;
+	border-top: 1px solid #ccc;
+}
+
+img.right
+{
+	border: 1px solid #ccc;
+	float: right;
+	margin-left: 15px;
+	padding: 5px;
+}
+
+img.left
+{
+	border: 1px solid #ccc;
+	float: left;
+	margin-right: 15px;
+	padding: 5px;
+}
+
+pre
+{
+	white-space: pre-wrap; /* CSS 2.1 */
+	word-wrap: break-word; /* IE7 */
+}
+
+.marker
+{
+	background-color: Yellow;
+}
+
+span[lang]
+{
+   font-style: italic;
+}
